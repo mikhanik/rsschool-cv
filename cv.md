@@ -49,6 +49,7 @@ function camelize(str) {
       return camelizedString;
     }
 ```
+
 ---
 
 ## Education
@@ -61,6 +62,7 @@ _Specialization: Computer software and automated systems._
 * [Javascript.ru course «JavaScript/​DOM/Interfaces» for beginners '20 — "bronze" score](https://learn.javascript.ru/courses/jsbasic-20200616/mikhanik/ru/certificate.jpg)
 * [Rolling Scopes School course «JavaScript/Front-end» '22 (right in progress!)
  ](https://learn.javascript.ru/courses/jsbasic-20200616/mikhanik/ru/certificate.jpg)
+
 ---
 
 ## Experience
