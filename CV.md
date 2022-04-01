@@ -64,6 +64,7 @@ _Specialization: Computer software and automated systems._
 ## Experience
 
  [«CV» task at Rolling Scopes School course](https://github.com/mikhanik/rsschool-cv)
+ 
 ---
 
 ## Languages
