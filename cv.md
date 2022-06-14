@@ -12,7 +12,7 @@
 
 ## About me
 Throughout my professional career in IT (tech support, IT infrastructures maintaince), I have always looked with interest at software development.
-Over the past couple of years, I have been taking steps to change my profession — to enter to frontend development. Also try to keep abreast of industry — watch some videos, read articles, listen podcasts etc.
+Over the past couple of years, I have been taking steps to change my profession — to enter to frontend development. Also trying to keep abreast of industry — watch some videos, read articles, listen podcasts etc.
   
 I am currently taking a _"JavaScript/Front-end"_ course at Rolling Scopes School. Spend the most of my free time on this and very motivated for results.
   
