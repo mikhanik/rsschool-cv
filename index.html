@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>CV. Cross-Check</title>
+    <link href="./style.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+    <section class="wrapper">
+
+      <header>
+        <nav>
+          <ul>
+            <li class="nav-item"><a href="#contacts">Contacts</a></li>
+            <li class="nav-item"><a href="#about">About</a></li>
+            <li class="nav-item"><a href="#skills">Skills</a></li>
+            <li class="nav-item"><a href="#code">Code</a></li>
+            <li class="nav-item"><a href="#education">Education</a></li>
+            <li class="nav-item"><a href="#experience">Experience</a></li>
+            <li class="nav-item"><a href="#langs">Languages</a></li>
+          </ul>
+        </nav>
+        <img src="./photo.png" alt="Misha was here">
+        <h1>Mikhail Nikolaev</h1>
+        <h2>Junior Frontend Developer</h2>
+      </header>
+
+      <main>
+        <section class="info-block" id="contacts">
+          <h2>Contacts</h2>
+          <ul>
+            <li><a href="tg://resolve?domain=misha_n">Telegram</a></li>
+            <li><a href="https://www.linkedin.com/in/misha-nikolaev-7000a3bb">LinkedIn</a></li>
+            <li><a href="https://discord.com/users/952301684925820969">Discord</a></li>
+          </ul>
+        </section>
+
+        <section class="info-block" id="about">
+          <h2>About me</h2>
+          <p>Throughout my professional career in IT (tech support, IT infrastructures maintaince), I have always looked with interest at software development.
+            Over the past couple of years, I have been taking steps to change my profession — to enter to frontend development. Also trying to keep abreast of industry — watch some videos, read articles, listen podcasts etc.
+              
+            I am currently taking a <i>"JavaScript/Front-end Pre-School"</i> course at Rolling Scopes School. Spend the most of my free time on this and very motivated for results.
+              
+            I don't have much experience yet, but I already understand that I'm most interested in JS. At the end of the current course, as a continuation of my education, I planned to delve into data structures and algorithms.</p>
+        </section>
+        
+        <section class="info-block" id="skills">
+          <h2>Skills</h2>
+          <ul>
+            <li>HTML5, CSS3 (Fundamentals)</li>
+            <li>JS (Fundamentals)</li>
+            <li>Git</li>
+          </ul>
+          <p>Overall, thanks to my profession, I have good knowledge in computer science, which definitely helps me with current learning.</p>
+        </section>
+
+        <section class="info-block" id="code">
+          <h2>Code examples</h2>
+          <h3>Task:</h3>
+          Write a function <code>camelize(str)</code> that converts strings like <code>my-short-string</code> to <code>myShortString</code> — hyphens are removed, and all words after them get a capital letter.
+          <h3>Solution:</h3>
+          <pre>
+            <code>
+              function camelize(str) {
+                let arrayStrings = str.split('-');
+                
+                let camelizedString = arrayStrings.map( (item, index) => {
+                  if (index === 0) return item;
+              
+                  return item[0].toUpperCase() + item.slice(1);
+                }).join('');
+              
+                return camelizedString;
+              }
+            </code>
+          </pre>
+        </section>
+
+        <section class="info-block" id="education">
+          <h2>Education</h2>
+          <h3>Secondary special education:</h3>
+          2006 — Arkhangelsk College of Telecommunications <i>Specialization: Computer software and automated systems.</i>
+          <h3>Courses:</h3>
+          <ul>
+            <li><a href="https://learn.javascript.ru/courses/jsbasic-20200616/mikhanik/ru/certificate.jpg">Javascript.ru course «JavaScript/​DOM/Interfaces» for beginners '20 — "bronze" score</a></li>
+            <li><a href="https://rs.school/js-stage0/">Rolling Scopes School course «JavaScript/Front-end Pre-School 2022Q2» (right in progress!)</a></li>
+          </ul>
+          <p></p>
+        </section>
+
+        <section class="info-block" id="experience">
+          <h2>Experience</h2>
+          <ul>
+            <li><a href="https://github.com/mikhanik/rsschool-cv">«CV» task at Rolling Scopes School course</a></li>
+          </ul>
+        </section>
+
+        <section class="info-block" id="langs">
+          <h2>Languages</h2>
+          <ul>
+            <li>Russian — native</li>
+            <li>English — A2 level (with some gaps)</li>
+          </ul>
+          
+          
+        </section>
+      </main>
+
+      <footer>
+
+      </footer>
+
+    </section>
+  </body>
+
+  </html>
